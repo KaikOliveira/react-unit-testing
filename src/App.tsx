@@ -1,7 +1,11 @@
+import { List } from "./components/List/List";
+
 function App() {
   return (
-    <div className="App">
-      <p>testing</p>
+    <div>
+      <p className="test">testing</p>
+
+      <List initialItems={["Kaik", "Joao", "Lucas"]} />
     </div>
   );
 }
